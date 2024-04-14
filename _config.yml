@@ -1,1 +1,20 @@
 theme: jekyll-theme-hacker
+show_downloads: false
+show_repo: false
+
+safe: true
+
+plugins:
+  - jekyll-gist
+  - jekyll-remote-theme
+  - jekyll-coffeescript
+  - jekyll-seo-tag
+  - some-other-jekyll-plugin
+  - jekyll-remote-theme
+  
+gems:
+  - jekyll-sitemap
+  
+
+whitelist:
+  - jekyll-sitemap
