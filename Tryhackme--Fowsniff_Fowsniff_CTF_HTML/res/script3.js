@@ -1,3 +1,4 @@
+@import "{{ site.theme }}";
 right_arrow_heavy = '&#129090;'
 left_arrow_heavy = '&#129088;'
 
