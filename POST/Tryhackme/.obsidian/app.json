@@ -1,4 +1,5 @@
 {
   "attachmentFolderPath": "windows/Sustah/Attachments",
-  "newLinkFormat": "absolute"
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true
 }
