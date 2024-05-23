@@ -97,4 +97,5 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 >On checking port found nothing new a simple apche sevrer wiht web hosted in it
 
-![[Attachments/Pasted image 20240523231414.png]]
+![](Attachments/Pasted%20image%2020240523231804.png)
+
