@@ -1,5 +1,6 @@
 {
-  "attachmentFolderPath": "windows/Sustah/Attachments",
+  "attachmentFolderPath": "Linux/Umbrella/attachments",
   "newLinkFormat": "relative",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "promptDelete": false
 }
