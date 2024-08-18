@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "9804c791c9368f42",
+        "id": "3730686e1d966d8a",
         "type": "tabs",
         "children": [
           {
-            "id": "cd24df5e3409390b",
+            "id": "b51596b40338d31e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tryhackme/windows/Cyberlens/Cyberlens.md",
+                "file": "HTB/Linux/Sea/Sea.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7581de6ed35f4c46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB/Linux/Sea/Sea.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tryhackme/windows/Cyberlens/Cyberlens.md",
+                "file": "HTB/Linux/Sea/Sea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tryhackme/windows/Cyberlens/Cyberlens.md",
+                "file": "HTB/Linux/Sea/Sea.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tryhackme/windows/Cyberlens/Cyberlens.md"
+                "file": "HTB/Linux/Sea/Sea.md"
               }
             }
           }
@@ -146,35 +159,49 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cd24df5e3409390b",
+  "active": "aa1936ab15da0d2e",
   "lastOpenFiles": [
-    "Tryhackme/windows/Cyberlens/Attachments/Pasted image 20240519211211.png",
-    "Tryhackme/windows/Cyberlens/Attachments/Pasted image 20240519204038.png",
-    "Tryhackme/windows/Cyberlens/Attachments/Pasted image 20240519203940.png",
-    "Tryhackme/windows/Cyberlens/Attachments/Pasted image 20240519203927.png",
-    "Tryhackme/windows/VulnetRaoasted/VulnetRoasted.md",
+    "HTB/Linux/Sea/Attachments/Pasted image 20240818185552.png",
+    "HTB/Linux/Sea/Attachments/Pasted image 20240818182152.png",
+    "HTB/Linux/Sea/Attachments/Pasted image 20240818180908.png",
+    "HTB/Linux/Sea/Attachments/Pasted image 20240818180648.png",
+    "HTB/Linux/Sea/Attachments/Pasted image 20240818175038.png",
+    "HTB/Linux/Sea/Attachments/Pasted image 20240818172748.png",
+    "HTB/Linux/Sea/Attachments/Pasted image 20240818172652.png",
+    "HTB/Linux/Sea/Attachments/Pasted image 20240817212409.png",
+    "HTB/Linux/Sea/Attachments/Pasted image 20240817205515.png",
+    "HTB/Linux/Sea/Attachments/Pasted image 20240817204558.png",
+    "HTB/Linux/Sea/Attachments/Pasted image 20240817204551.png",
+    "HTB/Windows/Blazzoried.md",
+    "HTB/Linux/Sea/Sea.md",
+    "HTB/Linux/Sea/Attachments",
+    "HTB/Linux/Editorial.md",
+    "HTB/Linux/Sea",
+    "HTB/Linux/Untitled.canvas",
+    "HTB/Linux/Blurry.md",
+    "HTB/info.md",
     "Tryhackme/windows/VulnetActive/VulnetActive.md",
+    "Tryhackme/windows/VulnetRaoasted/VulnetRoasted.md",
+    "Tryhackme/windows/Hacksmater/HackSmater.md",
     "Tryhackme/windows/Cyberlens/Cyberlens.md",
-    "Tryhackme/windows/Cyberlens/Attachments/Pasted image 20240519200859.png",
-    "Tryhackme/windows/Cyberlens/Attachments/Pasted image 20240519200731.png",
-    "Tryhackme/windows/Cyberlens/Attachments",
-    "Tryhackme/windows/Cyberlens",
-    "Tryhackme/windows/VulnetActive/attachments/Pasted image 20240517211527.png",
-    "Tryhackme/windows/VulnetActive/attachments/Pasted image 20240504145214.png",
-    "Tryhackme/windows/VulnetActive/attachments/Pasted image 20240504140059.png",
-    "Tryhackme/windows/VulnetActive/attachments",
-    "Tryhackme/windows/VulnetActive",
-    "Tryhackme/windows/VulnetRaoasted/Attachments/Pasted image 20240422215435.png",
-    "Tryhackme/windows/VulnetRaoasted/Attachments/Pasted image 20240422214114.png",
+    "HTB/Windows/Freelancer/Freelacner.md",
+    "HTB/Analytics/footholld and privesc.md",
+    "HTB/Analytics/Analytical.htb.md",
+    "HTB/Analytics/Analytics.md",
+    "HTB/Analytics/Nmap.md",
+    "info.md",
+    "jwt.io.md",
+    "HTB/Windows/Attachments",
+    "HTB/Windows/B",
+    "HTB/Linux/Attachments",
+    "HTB/Linux",
+    "HTB/Windows/Freelancer/Attachments",
+    "HTB/Windows/Attachmenets",
+    "HTB/Windows/Freelancer",
+    "HTB/Windows",
     "Tryhackme/Linux/Watcher/Watcher.md",
-    "Tryhackme/windows/VulnetRaoasted/Attachments",
-    "Tryhackme/windows/VulnetRaoasted",
-    "Tryhackme/windows",
     "hello/text.md",
     "Tryhackme/Linux/Watcher/Watcher.pandoc.md",
-    "hello/img",
-    "hello",
-    "Welcome.md",
-    "Tryhackme/Linux/Watcher/attachments"
+    "Welcome.md"
   ]
 }
